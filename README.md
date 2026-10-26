@@ -18,13 +18,14 @@ How do spatial patterns and bodies develop, maintain form and regenerate? Chemic
 
 - **L-systems** - Parallel rewriting rules model cell division and branching growth. Symbols encode developmental states; geometric interpretation turns their expansion into plant forms. The rules specify a developmental model, not just a final shape. [Lindenmayer 1968](<https://doi.org/10.1016/0022-5193(68)90079-9> "Mathematical models for cellular interactions in development I. Filaments with one-sided inputs; J. Theor. Biol."), [Prusinkiewicz and Lindenmayer 1990](<https://algorithmicbotany.org/papers/abop/abop.pdf> "The Algorithmic Beauty of Plants; Springer (book)").
 - **Bioelectric pattern memory** - Briefly perturbing gap-junction signaling changes later planarian regeneration, including in normal-looking worms amputated again in water. Manipulating resting potential can reset the altered head-pattern outcome. [Durant et al. 2017](<https://pmc.ncbi.nlm.nih.gov/articles/PMC5443973/> "Long-Term, Stochastic Editing of Regenerative Anatomy via Targeting Endogenous Bioelectric Gradients; Biophys. J.").
+- **synNotch morphogenesis** - Engineered contact signals change cell adhesion, which rearranges neighbors and alters later signals. Mouse fibroblasts form layered or asymmetric assemblies, and cut layered structures regenerate their organization. [Toda et al. 2018](<https://pmc.ncbi.nlm.nih.gov/articles/PMC6492944/> "Programming self-organizing multicellular structures with synthetic cell-cell signaling; Science").
 - **Growing neural cellular automata** - Train a shared local neural rule to grow a target image. Reusing intermediate states improves persistence; exposing the model to damage strengthens repair. Local execution follows global optimization through time. [Mordvintsev et al. 2020](<https://distill.pub/2020/growing-ca/> "Growing Neural Cellular Automata; Distill"); [code](<https://github.com/google-research/self-organising-systems>), [demo](<https://colab.research.google.com/github/google-research/self-organising-systems/blob/master/notebooks/growing_ca.ipynb>).
 
 ## Open questions
 
 - Which perturbations distinguish changes in a spatial signal from changes in how cells interpret that signal?
 - Which repair mechanisms generalize beyond damage encountered during development, selection or training?
-- What interventions distinguish a stored target form from local physical relaxation toward a recurring shape?
+- Which persistent cellular states determine regenerated form, and how do targeted perturbations change the outcome?
 
 ## Related topics
 
@@ -35,4 +36,4 @@ How do spatial patterns and bodies develop, maintain form and regenerate? Chemic
 - [Autonomy and viability](https://hyperorganism.github.io/synthetic-life/#autonomy-and-viability) - Preserving a shape and maintaining the processes that produce it are different claims.
 - [Capacities and behavioral organization](https://hyperorganism.github.io/basal-cognition/#capacities-and-behavioral-organization) - Bioelectric resets change future regeneration. Tests of learning or goal adjustment must distinguish those interpretations from the physiological control already demonstrated.
 - [Process-based art](https://hyperorganism.github.io/systems-aesthetics/#process-environment-and-interaction) - Patterns can be artistic material as well as scientific observations.
-- [Active Matter](https://hyperorganism.github.io/active-matter/)
+- [Active tissue mechanics](https://hyperorganism.github.io/active-matter/#physical-foundations-and-collective-motion) - Alignment defects link stresses to cell removal in epithelial sheets.
